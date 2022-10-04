@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Body Mass Index</title>
+  </head>
+  <body>
+    <!-- img -->
+    <header class="img">
+      <img class="gambar" src="BMI.jpg" alt="gambar BMI" />
+    </header>
+    <!-- konten utama -->
+    <section>
+      <!-- judul dan deskripsi -->
+      <div class="formHeader">
+        <h1>Body Mass Index</h1>
+        <p>Masukkan tinggi dan berat badan anda untuk cek BMI</p>
+      </div>
+      <!-- form -->
+      <div class="form">
+        <form id="form1" action="">
+          <label for="bb">Berat badan (KG)</label>
+          <input type="text" id="beratBadan" name="beratBadan" />
+          <label for="tb">Tinggi badan (CM)</label>
+          <input type="text" id="tinggiBadan" name="tinggiBadan" /><br />
+          <button id="button1" type="submit">Calculate</button>
+        </form>
+        <!-- hasil kalkulasi -->
+        <div id="result">
+          <h1 id="textResult"></h1>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
