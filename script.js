@@ -49,6 +49,8 @@ btn.addEventListener("click", (event) => {
     xResult.style.border = "2px solid red";
     result.style.display = "grid";
   }
+
   //reset form
   frm.reset();
 });
+//done
